@@ -1,6 +1,7 @@
 ---
 title: "Flugschulen"
 description: "Lokale Flugschulen und Ausbildungsangebote in der Region Oberwallis."
+draft: true
 ---
 
 ## Flugschulen im Oberwallis

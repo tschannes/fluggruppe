@@ -1,6 +1,7 @@
 ---
 title: "Club CCC"
 description: "Der Club CCC – Rangliste, Chronik und Regeln des Wettbewerbs der Fluggruppe Aletsch."
+draft: true
 ---
 
 Der **Club CCC** (Club Cross Country Challenge) ist ein vereinsinterner Wettbewerb, bei dem die Mitglieder ihre Flüge messen und vergleichen.

@@ -38,24 +38,6 @@ title = "Fluggruppe Aletsch"
       url = "/club/jahresprogramm/"
       parent = "club"
       weight = 1
-    [[menu.main]]
-      identifier = "club-ccc"
-      name = "Club CCC"
-      url = "/club/club-ccc/"
-      parent = "club"
-      weight = 2
-    [[menu.main]]
-      identifier = "statuten"
-      name = "Statuten"
-      url = "/club/statuten/"
-      parent = "club"
-      weight = 3
-    [[menu.main]]
-      identifier = "diverses"
-      name = "Diverses"
-      url = "/club/diverses/"
-      parent = "club"
-      weight = 4
   [[menu.main]]
     identifier = "flugmekka"
     name = "Flugmekka"
