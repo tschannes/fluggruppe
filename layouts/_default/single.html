@@ -1,0 +1,24 @@
+{{ define "main" }}
+<div class="page-hero page-hero-inner">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <ol>
+        <li><a href="/">Startseite</a></li>
+        {{ if .Parent }}
+          <li><a href="{{ .Parent.RelPermalink }}">{{ .Parent.Title }}</a></li>
+        {{ end }}
+        <li aria-current="page">{{ .Title }}</li>
+      </ol>
+    </nav>
+    <h1 class="page-title">{{ .Title }}</h1>
+  </div>
+</div>
+
+<main class="page-main section" id="main-content">
+  <div class="container container-narrow">
+    <div class="prose">
+      {{ .Content }}
+    </div>
+  </div>
+</main>
+{{ end }}

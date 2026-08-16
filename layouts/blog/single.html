@@ -1,0 +1,31 @@
+{{ define "main" }}
+<div class="page-hero page-hero-inner">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <ol>
+        <li><a href="/">Startseite</a></li>
+        <li><a href="/blog/">Newsblog</a></li>
+        <li aria-current="page">{{ .Title }}</li>
+      </ol>
+    </nav>
+    <h1 class="page-title">{{ .Title }}</h1>
+    <time class="blog-post-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02. January 2006" }}</time>
+  </div>
+</div>
+
+<main class="page-main section" id="main-content">
+  <div class="container container-narrow">
+    {{ if .Params.image }}
+      <figure class="blog-post-cover">
+        <img src="{{ .Params.image }}" alt="{{ .Title }}" />
+      </figure>
+    {{ end }}
+    <div class="prose">
+      {{ .Content }}
+    </div>
+    <div class="blog-post-back">
+      <a href="/blog/" class="btn btn-outline">← Zurück zum Blog</a>
+    </div>
+  </div>
+</main>
+{{ end }}

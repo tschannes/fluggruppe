@@ -1,0 +1,122 @@
+{{ define "main" }}
+<!-- Hero Slideshow -->
+<section class="hero" id="hero" aria-label="Bildershow">
+  <div class="hero-slides">
+    {{ range $i, $url := .Site.Params.heroImages }}
+      <div class="hero-slide{{ if eq $i 0 }} is-active{{ end }}" style="background-image: url('{{ $url }}')" role="img" aria-label="Paragliding Oberwallis"></div>
+    {{ end }}
+  </div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <span class="hero-eyebrow">Paragliding im Herzen der Alpen</span>
+    <h1 class="hero-title">Fluggruppe Aletsch</h1>
+    <p class="hero-subtitle">Wir pflegen die Fluggebiete im Oberwallis und informieren einheimische und auswärtige Piloten über unsere einzigartige Flugregion.</p>
+    <div class="hero-ctas">
+      <a href="/blog/" class="btn btn-primary">Aktuelle News</a>
+      <a href="/flugmekka/" class="btn btn-outline">Flugmekka entdecken</a>
+    </div>
+  </div>
+  <!-- Slide indicators -->
+  <div class="hero-indicators" aria-label="Folie auswählen">
+    {{ range $i, $url := .Site.Params.heroImages }}
+      <button class="hero-indicator{{ if eq $i 0 }} is-active{{ end }}" data-slide="{{ $i }}" aria-label="Folie {{ add $i 1 }}"></button>
+    {{ end }}
+  </div>
+</section>
+
+<!-- Intro Section -->
+<section class="home-intro section">
+  <div class="container">
+    <div class="home-intro-text">
+      {{ .Content }}
+    </div>
+  </div>
+</section>
+
+<!-- Quick Links -->
+<section class="home-cards section section-alt">
+  <div class="container">
+    <h2 class="section-title">Alles auf einen Blick</h2>
+    <div class="cards-grid">
+      <a href="/blog/" class="card card-link">
+        <div class="card-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 20H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h10l6 6v8a2 2 0 0 1-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/><polyline points="7 3 7 8 15 8"/></svg>
+        </div>
+        <h3 class="card-title">Newsblog</h3>
+        <p class="card-text">Berichte aus dem Vereinsleben, Ausflüge und Ankündigungen.</p>
+        <span class="card-arrow">→</span>
+      </a>
+      <a href="/flugmekka/" class="card card-link">
+        <div class="card-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>
+        </div>
+        <h3 class="card-title">Flugmekka Oberwallis</h3>
+        <p class="card-text">Karte, Infotafeln und alles Wichtige zu Start- und Landeplätzen.</p>
+        <span class="card-arrow">→</span>
+      </a>
+      <a href="/club/" class="card card-link">
+        <div class="card-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </div>
+        <h3 class="card-title">Club</h3>
+        <p class="card-text">Jahresprogramm, Club CCC, Statuten und Vereinsarchiv.</p>
+        <span class="card-arrow">→</span>
+      </a>
+      <a href="/wetter/" class="card card-link">
+        <div class="card-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
+        </div>
+        <h3 class="card-title">Wetter Fiesch</h3>
+        <p class="card-text">Aktueller Wetterbericht und Vorhersage für das Fluggebiet.</p>
+        <span class="card-arrow">→</span>
+      </a>
+      <a href="/flugschulen/" class="card card-link">
+        <div class="card-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+        </div>
+        <h3 class="card-title">Flugschulen</h3>
+        <p class="card-text">Lokale Flugschulen und Ausbildungsangebote in der Region.</p>
+        <span class="card-arrow">→</span>
+      </a>
+      <a href="/kontakt/" class="card card-link">
+        <div class="card-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </div>
+        <h3 class="card-title">Kontakt</h3>
+        <p class="card-text">Vorstand, E-Mail und Kontaktformular.</p>
+        <span class="card-arrow">→</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Latest News Preview -->
+{{ $posts := where .Site.RegularPages "Section" "blog" }}
+{{ if $posts }}
+<section class="home-news section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Aktuelle News</h2>
+      <a href="/blog/" class="section-more">Alle News →</a>
+    </div>
+    <div class="news-grid">
+      {{ range first 3 $posts }}
+        <article class="news-card">
+          {{ if .Params.image }}
+            <a href="{{ .RelPermalink }}" class="news-card-img-wrap">
+              <img src="{{ .Params.image }}" alt="{{ .Title }}" loading="lazy" />
+            </a>
+          {{ end }}
+          <div class="news-card-body">
+            <time class="news-card-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02. January 2006" }}</time>
+            <h3 class="news-card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            <p class="news-card-excerpt">{{ .Summary }}</p>
+            <a href="{{ .RelPermalink }}" class="news-card-link">Mehr lesen →</a>
+          </div>
+        </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}

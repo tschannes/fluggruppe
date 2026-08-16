@@ -1,0 +1,106 @@
+baseURL = "https://fluggruppe-aletsch.ch/"
+locale = "de-CH"
+defaultContentLanguage = "de"
+title = "Fluggruppe Aletsch"
+
+
+[params]
+  description = "Fluggruppe Aletsch – Paragliding im Oberwallis"
+  formspreeEndpoint = "https://formspree.io/f/REPLACE_WITH_YOUR_ID"
+  heroImages = [
+    "/images/hero1.jpg",
+    "/images/hero2.jpg",
+    "/images/hero3.jpg",
+    "/images/hero4.jpg",
+    "/images/hero5.jpg",
+    "/images/hero6.jpg",
+  ]
+
+[menu]
+  [[menu.main]]
+    identifier = "startseite"
+    name = "Startseite"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "newsblog"
+    name = "Newsblog"
+    url = "/blog/"
+    weight = 2
+  [[menu.main]]
+    identifier = "club"
+    name = "Club"
+    url = "/club/"
+    weight = 3
+    [[menu.main]]
+      identifier = "jahresprogramm"
+      name = "Jahresprogramm"
+      url = "/club/jahresprogramm/"
+      parent = "club"
+      weight = 1
+    [[menu.main]]
+      identifier = "club-ccc"
+      name = "Club CCC"
+      url = "/club/club-ccc/"
+      parent = "club"
+      weight = 2
+    [[menu.main]]
+      identifier = "statuten"
+      name = "Statuten"
+      url = "/club/statuten/"
+      parent = "club"
+      weight = 3
+    [[menu.main]]
+      identifier = "diverses"
+      name = "Diverses"
+      url = "/club/diverses/"
+      parent = "club"
+      weight = 4
+  [[menu.main]]
+    identifier = "flugmekka"
+    name = "Flugmekka"
+    url = "/flugmekka/"
+    weight = 4
+    [[menu.main]]
+      identifier = "luftraumregelung"
+      name = "Luftraumregelung Oberwallis"
+      url = "/flugmekka/luftraumregelung-oberwallis/"
+      parent = "flugmekka"
+      weight = 1
+    [[menu.main]]
+      identifier = "tma-sion"
+      name = "TMA Sion"
+      url = "/flugmekka/tma-sion/"
+      parent = "flugmekka"
+      weight = 2
+    [[menu.main]]
+      identifier = "luftraum-allgemein"
+      name = "Luftraum Allgemein"
+      url = "/flugmekka/luftraum-allgemein/"
+      parent = "flugmekka"
+      weight = 3
+  [[menu.main]]
+    identifier = "flugschulen"
+    name = "Flugschulen"
+    url = "/flugschulen/"
+    weight = 5
+  [[menu.main]]
+    identifier = "wetter"
+    name = "Wetter"
+    url = "/wetter/"
+    weight = 6
+  [[menu.main]]
+    identifier = "links"
+    name = "Links"
+    url = "/links/"
+    weight = 7
+  [[menu.main]]
+    identifier = "kontakt"
+    name = "Kontakt"
+    url = "/kontakt/"
+    weight = 8
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
