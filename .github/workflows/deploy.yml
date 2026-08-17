@@ -27,7 +27,7 @@ jobs:
           sudo mv hugo /usr/local/bin/
 
       - name: Build
-        run: hugo --minify
+        run: hugo --minify --baseURL "https://tschannes.github.io/fluggruppe/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
