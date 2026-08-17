@@ -18,7 +18,7 @@ Mit einer **Start-/Landeplatzkarte**, die bei den Luftseilbahnen und Flugschulen
 
 ## Startplatzkarte kaufen
 
-![QR-Code](/images/qr-code.png)
+![QR-Code](images/qr-code.png)
 
 Die **Start-/Landeplatzkarte** kann online gekauft werden:  
 [👉 Zur Eventfrog-Seite](https://eventfrog.ch/de/p/sport-fitness/flugsport/start-landeplatzkarte-7391923386081886912.html)
