@@ -1,4 +1,4 @@
 ---
-title: "Newsblog"
+title: "News"
 description: "Aktuelle Berichte aus der Fluggruppe Aletsch – Ausflüge, Vereinsnews und Ankündigungen."
 ---

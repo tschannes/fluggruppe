@@ -5,24 +5,24 @@
 /* --- Custom Properties ------------------------------------ */
 :root {
   /* Colours */
-  --clr-sky-900: hsl(210, 60%, 10%);
-  --clr-sky-800: hsl(210, 55%, 15%);
-  --clr-sky-700: hsl(210, 50%, 22%);
-  --clr-sky-600: hsl(210, 45%, 32%);
-  --clr-sky-500: hsl(210, 40%, 44%);
-  --clr-sky-400: hsl(210, 45%, 58%);
-  --clr-sky-300: hsl(210, 50%, 72%);
-  --clr-sky-100: hsl(210, 40%, 95%);
+  --clr-sky-900: hsl(198, 60%, 10%);
+  --clr-sky-800: hsl(198, 55%, 15%);
+  --clr-sky-700: hsl(198, 50%, 22%);
+  --clr-sky-600: hsl(198, 45%, 32%);
+  --clr-sky-500: hsl(198, 40%, 44%);
+  --clr-sky-400: hsl(198, 45%, 58%);
+  --clr-sky-300: hsl(198, 50%, 72%);
+  --clr-sky-100: hsl(198, 40%, 95%);
 
-  --clr-accent-600: hsl(25, 85%, 44%);
-  --clr-accent-500: hsl(25, 90%, 52%);
-  --clr-accent-400: hsl(25, 90%, 64%);
+  --clr-accent-600: hsl(198, 85%, 44%);
+  --clr-accent-500: hsl(198, 90%, 52%);
+  --clr-accent-400: hsl(198, 90%, 64%);
 
-  --clr-stone-900: hsl(35, 8%, 10%);
-  --clr-stone-700: hsl(35, 5%, 28%);
-  --clr-stone-500: hsl(35, 5%, 48%);
-  --clr-stone-200: hsl(35, 8%, 88%);
-  --clr-stone-100: hsl(35, 10%, 96%);
+  --clr-stone-900: hsl(198, 8%, 10%);
+  --clr-stone-700: hsl(198, 5%, 28%);
+  --clr-stone-500: hsl(198, 5%, 48%);
+  --clr-stone-200: hsl(198, 8%, 88%);
+  --clr-stone-100: hsl(198, 10%, 96%);
   --clr-white: hsl(0, 0%, 100%);
 
   /* Typography */
