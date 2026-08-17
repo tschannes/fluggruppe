@@ -23,11 +23,6 @@ title = "Fluggruppe Aletsch"
     url = "/"
     weight = 1
   [[menu.main]]
-    identifier = "newsblog"
-    name = "Newsblog"
-    url = "/blog/"
-    weight = 2
-  [[menu.main]]
     identifier = "club"
     name = "Club"
     url = "/club/"
@@ -38,34 +33,41 @@ title = "Fluggruppe Aletsch"
       url = "/club/jahresprogramm/"
       parent = "club"
       weight = 1
+    [[menu.main]]
+      identifier = "statuten"
+      name = "Statuten"
+      url = "/club/statuten/"
+      parent = "club"
+      weight = 2
+    [[menu.main]]
+      identifier = "mitglied-werden"
+      name = "Mitglied werden"
+      url = "/club/mitglied-werden/"
+      parent = "club"
+      weight = 3
   [[menu.main]]
     identifier = "flugmekka"
-    name = "Flugmekka"
-    url = "/flugmekka/"
+    name = "Fluggebiet"
+    url = "/flugmekka/start-und-landeplaetze/"
     weight = 4
     [[menu.main]]
-      identifier = "luftraumregelung"
-      name = "Luftraumregelung Oberwallis"
-      url = "/flugmekka/luftraumregelung-oberwallis/"
+      identifier = "start-und-landeplaetze"
+      name = "Start- und Landeplätze"
+      url = "/flugmekka/start-und-landeplaetze/"
       parent = "flugmekka"
       weight = 1
     [[menu.main]]
-      identifier = "tma-sion"
-      name = "TMA Sion"
-      url = "/flugmekka/tma-sion/"
-      parent = "flugmekka"
-      weight = 2
-    [[menu.main]]
-      identifier = "luftraum-allgemein"
-      name = "Luftraum Allgemein"
-      url = "/flugmekka/luftraum-allgemein/"
+      identifier = "luftraum"
+      name = "Luftraum"
+      url = "/flugmekka/luftraum"
       parent = "flugmekka"
       weight = 3
-  [[menu.main]]
-    identifier = "flugschulen"
-    name = "Flugschulen"
-    url = "/flugschulen/"
-    weight = 5
+    [[menu.main]]
+      identifier = "karte-kaufen"
+      name = "Start- und Landeplatzkarte kaufen"
+      url = "/flugmekka/karte-kaufen/"
+      parent = "flugmekka"
+      weight = 4
   [[menu.main]]
     identifier = "wetter"
     name = "Wetter"
@@ -76,11 +78,6 @@ title = "Fluggruppe Aletsch"
     name = "Links"
     url = "/links/"
     weight = 7
-  [[menu.main]]
-    identifier = "kontakt"
-    name = "Kontakt"
-    url = "/kontakt/"
-    weight = 8
 
 [markup]
   [markup.goldmark]

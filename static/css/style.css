@@ -337,6 +337,10 @@ input, textarea, select { font: inherit; }
   .nav-menu { display: none; }
   .nav-toggle { display: flex; }
   .nav-mobile { display: block; }
+  #link-table {
+    overflow-x: auto;
+    width: 100%;
+  }
 }
 
 /* ============================================================
@@ -791,7 +795,7 @@ input, textarea, select { font: inherit; }
   align-items: start;
 }
 .footer-logo {
-  filter: brightness(0) invert(1);
+  /*filter: brightness(0) invert(1);*/
   opacity: 0.85;
   border-radius: var(--radius-sm);
 }
