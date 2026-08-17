@@ -59,7 +59,7 @@ title = "Fluggruppe Aletsch"
     [[menu.main]]
       identifier = "luftraum"
       name = "Luftraum"
-      url = "/flugmekka/luftraum"
+      url = "/flugmekka/luftraum/"
       parent = "flugmekka"
       weight = 3
     [[menu.main]]
