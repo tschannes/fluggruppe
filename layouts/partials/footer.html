@@ -1,7 +1,7 @@
 <footer class="site-footer">
   <div class="footer-inner">
     <div class="footer-brand">
-      <img src="{{ "/images/logo.jpg" | relURL }}" alt="Fluggruppe Aletsch" class="footer-logo" width="80" />
+      <img src="{{ "images/logo.jpg" | absURL }}" alt="Fluggruppe Aletsch" class="footer-logo" width="80" />
       <p class="footer-tagline">Paragliding im Oberwallis</p>
     </div>
 
@@ -9,24 +9,24 @@
       <div class="footer-nav-col">
         <h3 class="footer-nav-heading">Club</h3>
         <ul role="list">
-          <li><a href="{{ "/club/jahresprogramm/" | relURL }}">Jahresprogramm</a></li>
-          <li><a href="{{ "/club/statuten/" | relURL }}">Statuten</a></li>
+          <li><a href="{{ "club/jahresprogramm/" | absURL }}">Jahresprogramm</a></li>
+          <li><a href="{{ "club/statuten/" | absURL }}">Statuten</a></li>
         </ul>
       </div>
       <div class="footer-nav-col">
         <h3 class="footer-nav-heading">Fliegen</h3>
         <ul role="list">
-          <li><a href="{{ "/flugmekka/start-und-landeplaetze/" | relURL }}">Start- und Landeplätze</a></li>
-          <li><a href="{{ "/flugmekka/luftraum/" | relURL }}">Luftraum</a></li>
-          <li><a href="{{ "/wetter/" | relURL }}">Wetter</a></li>
+          <li><a href="{{ "flugmekka/start-und-landeplaetze/" | absURL }}">Start- und Landeplätze</a></li>
+          <li><a href="{{ "flugmekka/luftraum/" | absURL }}">Luftraum</a></li>
+          <li><a href="{{ "wetter/" | absURL }}">Wetter</a></li>
         </ul>
       </div>
       <div class="footer-nav-col">
         <h3 class="footer-nav-heading">Info</h3>
         <ul role="list">
-          <li><a href="{{ "/blog/" | relURL }}">News</a></li>
-          <li><a href="{{ "/links/" | relURL }}">Links</a></li>
-          <li><a href="{{ "/vorstand/" | relURL }}">Vorstand</a></li>
+          <li><a href="{{ "blog/" | absURL }}">News</a></li>
+          <li><a href="{{ "links/" | absURL }}">Links</a></li>
+          <li><a href="{{ "vorstand/" | absURL }}">Vorstand</a></li>
         </ul>
       </div>
     </nav>
@@ -35,8 +35,8 @@
   <div class="footer-bottom">
     <p class="footer-copy">&copy; {{ now.Year }} Fluggruppe Aletsch</p>
     <div class="footer-legal">
-      <a href="{{ "/impressum/" | relURL }}">Impressum</a>
-      <a href="{{ "/datenschutz/" | relURL }}">Datenschutz</a>
+      <a href="{{ "impressum/" | absURL }}">Impressum</a>
+      <a href="{{ "datenschutz/" | absURL }}">Datenschutz</a>
     </div>
   </div>
 </footer>
