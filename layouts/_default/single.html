@@ -3,7 +3,7 @@
   <div class="container">
     <nav class="breadcrumb" aria-label="Breadcrumb">
       <ol>
-        <li><a href="{{ relURL "" }}">Startseite</a><</li>
+        {{ partial "breadcrumb-starter.html" . }}
         {{ if .Parent }}
           <li><a href="{{ .Parent.RelPermalink }}">{{ .Parent.Title }}</a></li>
         {{ end }}

@@ -3,8 +3,8 @@
   <div class="container">
     <nav class="breadcrumb" aria-label="Breadcrumb">
       <ol>
-        <li><a href=" {{ relURL "" }}">Startseite</a></li>
-        <li><a href="{{ "blog/" | relURL }}">Newsblog</a></li>
+        {{ partial "breadcrumb-starter.html" . }}
+        <li><a href="{{ "news/" | relURL }}">News</a></li>
         <li aria-current="page">{{ .Title }}</li>
       </ol>
     </nav>
@@ -24,7 +24,7 @@
       {{ .Content }}
     </div>
     <div class="blog-post-back">
-      <a href="{{ "blog/" | relURL }}" class="btn btn-outline">← Zurück zum Blog</a>
+      <a href="{{ "news/" | relURL }}" class="btn btn-outline">← Zurück zu den News</a>
     </div>
   </div>
 </main>
