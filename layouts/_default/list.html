@@ -27,7 +27,7 @@
               </a>
             {{ end }}
             <div class="news-card-body">
-              <time class="news-card-date" datetime="{{ dateFormat "2006-01-02" .Date }}">{{ dateFormat "02. January 2006" .Date }}</time>
+              <time class="news-card-date" datetime="{{ dateFormat "2006-01-02" .Date }}">{{ dateFormat "January 2006" .Date }}</time>
               <h2 class="news-card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
               <p class="news-card-excerpt">{{ .Description }}</p>
               <a href="{{ .RelPermalink }}" class="news-card-link">Mehr lesen →</a>

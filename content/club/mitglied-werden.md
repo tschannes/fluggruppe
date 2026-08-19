@@ -2,6 +2,7 @@
 title: "Mitglied werden"
 description: "Werde Mitglied bei der Fluggruppe Aletsch."
 draft: false
+date: 2024-12-01
 ---
 
 ## Werde Mitglied bei der Fluggruppe Aletsch

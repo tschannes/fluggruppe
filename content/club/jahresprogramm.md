@@ -1,6 +1,7 @@
 ---
 title: "Jahresprogramm"
 description: "Das aktuelle Jahresprogramm der Fluggruppe Aletsch mit geplanten Ausflügen und Veranstaltungen."
+date: 2025-01-01
 ---
 
 Das Jahresprogramm mit allen geplanten Ausflügen, Vereinsveranstaltungen und Aktivitäten wird hier publiziert.

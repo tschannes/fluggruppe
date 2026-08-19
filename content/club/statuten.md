@@ -2,6 +2,7 @@
 title: "Statuten"
 description: "Die Statuten der Fluggruppe Aletsch."
 draft: false
+date: 1995-06-12
 ---
 
 Die Statuten der Fluggruppe Aletsch regeln die Vereinsstruktur, Mitgliedschaft, Rechte und Pflichten.
