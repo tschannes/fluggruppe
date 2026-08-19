@@ -3,8 +3,6 @@ title: "Links"
 description: "Nützliche Links für Gleitschirm- und Hängegleiterpiloten im Oberwallis."
 ---
 
-# Nützliche Links
-
 ## Flugschulen
 
 - [Airvolution: Raoul Geiger, Ried-Brig](www.airvolution.ch)
