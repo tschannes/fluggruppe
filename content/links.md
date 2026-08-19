@@ -22,3 +22,7 @@ description: "Nützliche Links für Gleitschirm- und Hängegleiterpiloten im Obe
 - [BAZL – Bundesamt für Zivilluftfahrt](https://www.bazl.admin.ch/)
 - [AIP Switzerland – Luftfahrthandbuch](https://www.skybriefing.com/)
 - [DABS – Daily Airspace Bulletin Switzerland](https://www.skybriefing.com/web/dabs)
+
+## Free flying in Fiesch
+
+- Great website by Robert Smith [about flying in Fiesch](https://www.flyfiesch.com/) (in English).
